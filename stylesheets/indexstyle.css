@@ -9,3 +9,11 @@ footer {
     left:0px;
     width:100%;
 }
+
+header {
+    background-color: yellow;
+    padding:10px;
+    position:relative;
+    left:0px;
+    width:100%;
+}
