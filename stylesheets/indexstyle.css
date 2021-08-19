@@ -1,3 +1,7 @@
+body {
+    text-align:center;
+}
+
 p {
     color:pink;
 }
@@ -13,7 +17,39 @@ footer {
 header {
     background-color: yellow;
     padding:10px;
-    position:relative;
+    position:fixed;
+    top:0px;
     left:0px;
     width:100%;
+}
+
+.main {
+    background-color: red;
+    position:absolute;
+    width:100%;
+    left:0px;
+}
+
+.logo-area {
+    background-color:darkslategray;
+    opacity:50%;
+}
+
+.logo-area img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10em;
+}
+
+.search-bar {
+    position:relative;
+    background-color: seagreen;
+    padding:20px;
+    margin-top:10px;
+}
+
+#search-bar-input {
+    display:inline-block;
+    width:63%;
 }
