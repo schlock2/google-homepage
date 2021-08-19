@@ -1,5 +1,6 @@
 body {
     text-align:center;
+    font-family:sans-serif;
 }
 
 p {
@@ -14,6 +15,10 @@ footer {
     width:100%;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 header {
     background-color: yellow;
     padding:10px;
@@ -23,33 +28,55 @@ header {
     width:100%;
 }
 
-.main {
-    background-color: red;
+header a {
+    text-decoration:none; 
+}
+
+.header-left {
+    float:left;
+    padding-left:20px;
+}
+.header-right {
+    float:right;
+    padding-right:20px;
+}
+main {
+    background-color: darkolivegreen;
     position:absolute;
     width:100%;
+    top:10em;
     left:0px;
+    padding-top:auto;
+    padding-bottom:auto;
 }
 
 .logo-area {
     background-color:darkslategray;
-    opacity:50%;
+    position:relative;
 }
 
 .logo-area img {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    padding-top:10em;
+    padding-top:90px;
+    padding-bottom:30px;
 }
 
 .search-bar {
     position:relative;
     background-color: seagreen;
     padding:20px;
-    margin-top:10px;
+    padding-top:10px;
+    margin-bottom:20px;
 }
 
 #search-bar-input {
     display:inline-block;
-    width:63%;
+    height:2em;
+    width:28.3%;
+    padding:4px;
+    padding-left:20px;
+    border-radius:15px;
+    margin-bottom:8px;
 }
